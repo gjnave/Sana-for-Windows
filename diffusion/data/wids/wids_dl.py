@@ -15,7 +15,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 # This file is copied from https://github.com/NVlabs/VILA/tree/main/llava/wids
-import fcntl
+import portalocker
 import os
 import shutil
 import sys
@@ -41,11 +41,11 @@ class ULockFile:
 
     def __enter__(self):
         self.lockfile = open(self.lockfile_path, "w")
-        fcntl.flock(self.lockfile.fileno(), fcntl.LOCK_EX)
+        portalocker.flock(self.lockfile.fileno(), portalocker.LOCK_EX)
         return self
 
     def __exit__(self, exc_type, exc_val, exc_tb):
-        fcntl.flock(self.lockfile.fileno(), fcntl.LOCK_UN)
+        portalocker.flock(self.lockfile.fileno(), portalocker.LOCK_UN)
         self.lockfile.close()
         self.lockfile = None
         try:

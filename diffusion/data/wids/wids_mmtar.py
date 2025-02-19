@@ -16,7 +16,7 @@
 
 # This file is copied from https://github.com/NVlabs/VILA/tree/main/llava/wids
 import collections
-import fcntl
+import portalocker
 import io
 import mmap
 import os
@@ -153,10 +153,10 @@ def keep_while_reading(fname, fd, phase, delay=0.0):
     if fd < 0 or fname is None:
         return
     if phase == "start":
-        fcntl.flock(fd, fcntl.LOCK_SH)
+        portalocker.flock(fd, portalocker.LOCK_SH)
     elif phase == "end":
         try:
-            fcntl.flock(fd, fcntl.LOCK_EX | fcntl.LOCK_NB)
+            portalocker.flock(fd, portalocker.LOCK_EX | portalocker.LOCK_NB)
             os.unlink(fname)
         except FileNotFoundError:
             # someone else deleted it already

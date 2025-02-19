@@ -38,15 +38,10 @@ dependencies = [
     "tensorboard",
     "tensorboardX",
     "timm",
-    "torchaudio==2.4.0",
-    "torchvision==0.19",
     "transformers",
-    "triton==3.0.0",
     "wandb",
     "webdataset",
-    "xformers==0.0.27.post2",
     "yapf",
-    "spaces",
     "matplotlib",
     "termcolor",
     "pyrallis",
@@ -62,7 +57,7 @@ sana-upload = "sana.cli.upload2hf:main"
 [project.urls]
 
 [tool.pip]
-extra-index-url = ["https://download.pytorch.org/whl/cu121"]
+extra-index-url = ["https://download.pytorch.org/whl/cu126"]
 
 [tool.black]
 line-length = 120

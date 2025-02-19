@@ -43,7 +43,7 @@ def get_root_logger(
         :obj:`logging.Logger`: The obtained logger
     """
     if log_file is None:
-        log_file = "/dev/null"
+        log_file = "nul"
     logger = get_logger(name=name, log_file=log_file, log_level=log_level, timezone=timezone)
     return logger
 

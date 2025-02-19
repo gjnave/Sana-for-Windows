@@ -27,7 +27,6 @@ from datetime import datetime
 
 import gradio as gr
 import numpy as np
-import spaces
 import torch
 from PIL import Image
 from torchvision.utils import make_grid, save_image
@@ -233,7 +232,6 @@ def randomize_seed_fn(seed: int, randomize_seed: bool) -> int:
 
 @torch.no_grad()
 @torch.inference_mode()
-@spaces.GPU(enable_queue=True)
 def generate(
     prompt: str = None,
     negative_prompt: str = "",
