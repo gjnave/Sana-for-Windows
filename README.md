@@ -2,7 +2,7 @@
 SANA FOR WINDOWS
 
  <p align="center" style="border-radius: 10px">
-  <img src="asset/vogni.jpg" width="35%" alt="logo"/>
+  <img src="asset/cogni.jpg" width="35%" alt="logo"/>
 </p>
 
 
