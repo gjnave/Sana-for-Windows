@@ -13,16 +13,17 @@ MANUAL INSTALLATION  (Using CudaToolkit=12.6 (change the instructiosn for your v
 4. conda activate sana
 5. conda install nvidia/label/cuda-12.6.0::cuda-toolkit
 6. pip install torch --index-url https://download.pytorch.org/whl/cu126
-7. pip install -U pip
+7. python.exe -m pip install -U pip
 8. pip install -U xformers --index-url https://download.pytorch.org/whl/cu126
-9. pip install -e .
-10. pip install huggingface-hub
-11. pip install huggingface-hub[cli]
-12. pip install gradio
-13. doule click 'login-to-sana.bat'
-14. copy token from huggingface and right click to paste
-15. Press Enter and Confirm
-16. double click run-sana-windows.bat (download of models will begin)
+9. pip install https://huggingface.co/MonsterMMORPG/SECourses/resolve/main/triton-2.1.0-cp310-cp310-win_amd64.whl
+10. pip install -e .
+11. pip install huggingface-hub
+12. pip install huggingface-hub[cli]
+13. pip install gradio
+14. doule click 'login-to-sana.bat'
+15. copy token from huggingface and right click to paste
+16. Press Enter and Confirm
+17. double click run-sana-windows.bat (download of models will begin)
 
 ********************************************************************************************************
 <p align="center" style="border-radius: 10px">
