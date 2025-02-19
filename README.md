@@ -10,7 +10,7 @@ MANUAL INSTALLATION  (Using CudaToolkit=12.6 (change the instructiosn for your v
 1. Git clone https://github.com/gjnave/Sana-for-Windows
 2. cd Sana-for-Windows
 3. conda create -n sana python=3.10.0 -y
-4. conda activate sans
+4. conda activate sana
 5. conda install nvidia/label/cuda-12.6.0::cuda-toolkit
 6. pip install torch --index-url https://download.pytorch.org/whl/cu126
 7. pip install -U pip
