@@ -17,10 +17,11 @@ MANUAL INSTALLATION  (Using CudaToolkit=12.6 (change the instructiosn for your v
 8. pip install -e .
 9. pip install huggingface-hub
 10. pip install huggingface-hub[cli]
-11. doule click 'login-to-sana.bat'
-12. copy token from huggingface and right click to paste
-13. Press Enter and Confirm
-14. double click run-sana-windows.bat (download of models will begin)
+11. pip install gradio
+12. doule click 'login-to-sana.bat'
+13. copy token from huggingface and right click to paste
+14. Press Enter and Confirm
+15. double click run-sana-windows.bat (download of models will begin)
 
 ********************************************************************************************************
 <p align="center" style="border-radius: 10px">
