@@ -116,17 +116,7 @@ ______________________________________________________________________
 - [Citation](#bibtex)
 
 # 🔧 1. Dependencies and Installation
-
-- Python >= 3.10.0 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html))
-- [PyTorch >= 2.0.1+cu12.1](https://pytorch.org/)
-
-```bash
-git clone https://github.com/NVlabs/Sana.git
-cd Sana
-
-./environment_setup.sh sana
-# or you can install each components step by step following environment_setup.sh
-```
+ (This section has been removed as the files above will no longer work with Linux)
 
 # 💻 2. How to Play with Sana (Inference)
 
