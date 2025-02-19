@@ -5,6 +5,22 @@ SANA FOR WINDOWS
   <img src="asset/cogni.jpg" width="35%" alt="logo"/>
 </p>
 
+MANUAL INSTALLATION  (Using CudaToolkit=12.6 (change the instructiosn for your version) )
+-------------------
+1. Git clone https://github.com/gjnave/Sana-for-Windows
+2. cd Sana-for-Windows
+3. conda create -n sana python=3.10.0 -y
+4. conda install nvidia/label/cuda-12.6.0::cuda-toolkit
+5. pip install torch --index-url https://download.pytorch.org/whl/cu126
+6. pip install -U pip
+7. pip install -U xformers --index-url https://download.pytorch.org/whl/cu126
+8. pip install -e .
+9. pip install huggingface-hub
+10. pip install huggingface-hub[cli]
+11. doule click 'login-to-sana.bat'
+12. copy token from huggingface and right click to paste
+13. Press Enter and Confirm
+14. double click run-sana-windows.bat (download of models will begin)
 
 ********************************************************************************************************
 <p align="center" style="border-radius: 10px">
@@ -125,7 +141,7 @@ ______________________________________________________________________
 - [Citation](#bibtex)
 
 # 🔧 1. Dependencies and Installation
- (This section has been removed as the files above will no longer work with Linux)
+ (This section has been removed as the altered files above will no longer work with Linux)
 
 # 💻 2. How to Play with Sana (Inference)
 
