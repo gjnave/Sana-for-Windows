@@ -15,15 +15,16 @@ MANUAL INSTALLATION  (Using CudaToolkit=12.6 (change the instructiosn for your v
 6. pip install torch --index-url https://download.pytorch.org/whl/cu126
 7. python.exe -m pip install -U pip
 8. pip install -U xformers --index-url https://download.pytorch.org/whl/cu126
-9. pip install https://huggingface.co/MonsterMMORPG/SECourses/resolve/main/triton-2.1.0-cp310-cp310-win_amd64.whl
-10. pip install -e .
-11. pip install huggingface-hub
-12. pip install huggingface-hub[cli]
-13. pip install gradio
-14. doule click 'login-to-sana.bat'
-15. copy token from huggingface and right click to paste
-16. Press Enter and Confirm
-17. double click run-sana-windows.bat (download of models will begin)
+9. [pip install https://huggingface.co/MonsterMMORPG/SECourses/resolve/main/triton-2.1.0-cp310-cp310-win_amd64.whl](https://github.com/woct0rdho/triton-windows/releases/download/v3.2.0-windows.post10/triton-3.2.0-cp310-cp310-win_amd64.whl)
+10. pip insall portalocker
+11. pip install -e .
+12. pip install huggingface-hub
+13. pip install huggingface-hub[cli]
+14. pip install gradio
+15. doule click 'login-to-sana.bat'
+16. copy token from huggingface and right click to paste
+17. Press Enter and Confirm
+18. double click run-sana-windows.bat (download of models will begin)
 
 ********************************************************************************************************
 <p align="center" style="border-radius: 10px">
