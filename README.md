@@ -10,18 +10,19 @@ MANUAL INSTALLATION  (Using CudaToolkit=12.6 (change the instructiosn for your v
 1. Git clone https://github.com/gjnave/Sana-for-Windows
 2. cd Sana-for-Windows
 3. conda create -n sana python=3.10.0 -y
-4. conda install nvidia/label/cuda-12.6.0::cuda-toolkit
-5. pip install torch --index-url https://download.pytorch.org/whl/cu126
-6. pip install -U pip
-7. pip install -U xformers --index-url https://download.pytorch.org/whl/cu126
-8. pip install -e .
-9. pip install huggingface-hub
-10. pip install huggingface-hub[cli]
-11. pip install gradio
-12. doule click 'login-to-sana.bat'
-13. copy token from huggingface and right click to paste
-14. Press Enter and Confirm
-15. double click run-sana-windows.bat (download of models will begin)
+4. conda activate sans
+5. conda install nvidia/label/cuda-12.6.0::cuda-toolkit
+6. pip install torch --index-url https://download.pytorch.org/whl/cu126
+7. pip install -U pip
+8. pip install -U xformers --index-url https://download.pytorch.org/whl/cu126
+9. pip install -e .
+10. pip install huggingface-hub
+11. pip install huggingface-hub[cli]
+12. pip install gradio
+13. doule click 'login-to-sana.bat'
+14. copy token from huggingface and right click to paste
+15. Press Enter and Confirm
+16. double click run-sana-windows.bat (download of models will begin)
 
 ********************************************************************************************************
 <p align="center" style="border-radius: 10px">
