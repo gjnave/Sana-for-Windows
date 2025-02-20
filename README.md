@@ -25,6 +25,7 @@ MANUAL INSTALLATION  (Using CudaToolkit=12.6 (change the instructiosn for your v
 16. copy token from huggingface and right click to paste
 17. Press Enter and Confirm
 18. double click run-sana-windows.bat (download of models will begin)
+19. if the URL comes up as 0.0.0.0  copy and paste it into browswer and changet to 127.0.0.1
 
 ********************************************************************************************************
 <p align="center" style="border-radius: 10px">
