@@ -15,7 +15,7 @@ MANUAL INSTALLATION  (Using CudaToolkit=12.6 (change the instructiosn for your v
 6. pip install torch --index-url https://download.pytorch.org/whl/cu126
 7. python.exe -m pip install -U pip
 8. pip install -U xformers --index-url https://download.pytorch.org/whl/cu126
-9. [pip install https://huggingface.co/MonsterMMORPG/SECourses/resolve/main/triton-2.1.0-cp310-cp310-win_amd64.whl](https://github.com/woct0rdho/triton-windows/releases/download/v3.2.0-windows.post10/triton-3.2.0-cp310-cp310-win_amd64.whl)
+9. pip install https://github.com/woct0rdho/triton-windows/releases/download/v3.2.0-windows.post10/triton-3.2.0-cp310-cp310-win_amd64.whl
 10. pip insall portalocker
 11. pip install -e .
 12. pip install huggingface-hub
