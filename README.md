@@ -27,6 +27,9 @@ MANUAL INSTALLATION  (Using CudaToolkit=12.6 (change the instructiosn for your v
 18. double click run-sana-windows.bat (download of models will begin)
 19. if the URL comes up as 0.0.0.0  copy and paste it into browswer and changet to 127.0.0.1
 
+** A free system checker can be downloaded at: https://www.patreon.com/posts/automated-system-117200313
+** A GetGoingFast Quick Installer can be obtained here: https://www.patreon.com/posts/nvidia-sana-for-122669029
+
 ********************************************************************************************************
 <p align="center" style="border-radius: 10px">
   <img src="asset/logo.png" width="35%" alt="logo"/>
